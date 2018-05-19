@@ -1,0 +1,84 @@
+div{
+font-size:100%;
+}
+@media(min-device-width: 992px){
+section1, section2, section3{
+	border: 1px solid black;
+	margin:15px;
+	width: 30%;
+	float:left;
+	background-color: #100f109e;
+	box-sizing: border-box;
+}
+}
+
+@media(min-device-width: 768px) and (max-device-width: 991px){
+section1,section2{
+	border: 1px solid black;
+	margin: 5%;
+	width: 40%;
+	float:left;
+	background-color: #100f109e;
+	box-sizing: border-box;
+}
+section3{
+	border: 1px solid black;
+	margin-left:5%;
+	margin-right:5%;
+	width: 90%;
+	float:left;
+	background-color: #100f109e;
+	box-sizing: border-box;
+}
+}
+
+@media(max-device-width: 767px){
+section1,section2,section3{
+	border: 1px solid black;
+	margin: 5%;
+	width: 90%;
+	float:left;
+	background-color: #100f109e;
+	box-sizing: border-box;
+}
+}
+
+title1{
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	float:right;
+	width:20%;
+	text-align: center;
+	font-weight: bold;
+	background-color: #dea6bd;
+	font-size:1.25em;
+	
+}
+title2{
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	float:right;
+	width:20%;
+	text-align: center;
+	font-weight: bold;
+	background-color: #d05151;
+	color: #fbf5f5;
+	font-size:1.25em;
+}
+title3{
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	float:right;
+	width:20%;
+	text-align: center;
+	font-weight: bold;
+	background-color: #efe823;
+	font-size:1.25em;
+}
+p{
+	padding: 20px;
+	font-family: Times-new-roman; 
+}
+h1{
+ font-size:1.75em 
+}
